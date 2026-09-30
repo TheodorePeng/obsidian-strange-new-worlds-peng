@@ -115,10 +115,7 @@ export default class SNWPlugin extends Plugin {
 		this.toggleStateSNWCMEditor();
 		this.toggleStateSNWGutters();
 
-		this.app.workspace.onLayoutReady(async () => {
-			if (!this.app.workspace.getLeavesOfType(VIEW_TYPE_SNW)?.length) {
-				await this.app.workspace.getRightLeaf(false)?.setViewState({ type: VIEW_TYPE_SNW, active: false });
-			}
+		this.app.workspace.onLayoutReady(() => {
 			buildLinksAndReferences();
 		});
 	}
