@@ -3,7 +3,7 @@
 > [!NOTE]
 > This is Peng's maintained fork of [TfTHacker/obsidian42-strange-new-worlds](https://github.com/TfTHacker/obsidian42-strange-new-worlds).
 > The fork keeps upstream functionality but does **not** automatically create the Strange New Worlds sidebar when an Obsidian window/workspace layout loads. The sidebar can still be opened manually when needed.
-> For BRAT, use: `TheodorePeng/obsidian42-strange-new-worlds-peng`
+> For BRAT, use: `TheodorePeng/obsidian-strange-new-worlds-peng`
 
 # Strange New Worlds of networked thought
 
